@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="connexion.css">
+    <title>Formulaire inscription</title>
+</head>
+<body>
+
+    <form action="Page-inscription.php" method="post">
+        <fieldset> 
+            <legend> FORMULAIRE D'INSCRIPTION</legend>
+        <div>
+            <label for="name"> Login :</label> </br>
+            <input type="text" id="name" name="name" autofocus required> </br></br>
+        </div>
+        <div>
+            <label for="mdp"> Mot de passe :</label> </br>
+            <input type="password" id="mdp" name="mdp"> </br></br>
+        </div>
+        <div>
+            <label for="mdp"> Confirmation mot de passe :</label> </br>
+            <input type="password" id="mdp" name="mdp"> </br></br>
+        </div>
+        <div>
+            <label for="ddn"> Date de naissance :</label> </br>
+            <input type="date" id="ddn" name="ddn"> </br></br>
+        </div>
+        <div>
+            <label for="nom"> Nom :</label> </br>
+            <input type="text" id="nom" name="nom"> </br></br>
+        </div>
+        <div>
+            <label for="prenom"> Prénom :</label> </br>
+            <input for="text" id="prenom" name="prenom"> </br></br>
+        </div>
+        <div>
+            <label for="email"> Adresse email :</label> </br>
+            <input for="email" id="email" name="email"> </br></br>
+        </div>
+        <div>
+            <label for="sexe"> Sexe :</label>
+            <input type="radio" id="homme" name="homme" value="hom">
+            <label for="homme"> Homme</label> 
+            <input type="radio" id="femme" name="homme" value="fem">
+            <label for="femme"> Femme</label> <br><br>
+        </div>
+        
+        <label for="niveau-etude"> Choisir un niveau d'étude :</label> </br> 
+
+            <select name="niveau-etude" id="niveau-etude">
+            <option value="Bac+2">Bac+2</option>
+            <option value="Bac+3">Bac+3</option>
+            <option value="Bac+4">Bac+4</option>
+            <option value="Bac+5">Bac+5</option> </select> </br></br>
+        
+        <div>
+            <label for="num"> Téléphone :</label> </br>
+            <input for="tel" id="num" name="num"> </br></br>
+        </div>
+        <div id="message">
+            <label for="msg"> Présentation :</label> </br>
+            <textarea id="msg" name="message"></textarea> </br></br>
+          </div>
+         <div>
+            <label for="hobbies"> Hobbies :</label> </br>
+            
+            <input type="checkbox" id="sport" name="sport">
+            <label for="sport"> Sport </label></br>
+            
+            <input type="checkbox" id="musique" name="musique">
+            <label for="musique"> Musique </label></br>
+            
+            <input type="checkbox" id="lec" name="lec">
+            <label for="lec"> Lecture </label></br>
+            
+            <input type="checkbox" id="dessin" name="dessin">
+            <label for="dessin"> Dessin </label></br>
+            
+            <input type="checkbox" id="jeux" name="jeux">
+            <label for="jeux"> Jeux vidéo </label></br> </br> 
+        </div>
+        <div>
+            <input type="button" id="button" value="Envoyer">
+        </div>
+    </fieldset>
+    </form>
+    
+    </body>
+    </html>        
